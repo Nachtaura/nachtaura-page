@@ -8,61 +8,59 @@
 </head>
 <body class="bg-gray-900 text-white font-sans">
 
-  <!-- Header -->
-  <header class="bg-gradient-to-r from-purple-800 via-indigo-700 to-pink-600 p-4 shadow-lg">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">NACHTAURA</h1>
-      <nav>
-        <a href="index.html" class="mx-2 hover:text-pink-300">Start</a>
-        <a href="about.html" class="mx-2 hover:text-pink-300">Über uns</a>
-        <a href="matches.html" class="mx-2 hover:text-pink-300">Matches</a>
-        <a href="contact.html" class="mx-2 hover:text-pink-300">Kontakt</a>
-      </nav>
+  <!-- Header mit Hero-Hintergrund -->
+  <header class="relative">
+    <div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('assets/images/hero-bg.png'); opacity: 0.25;"></div>
+    <div class="relative z-10 bg-gradient-to-r from-purple-800 via-indigo-700 to-pink-600 p-4 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">NACHTAURA</h1>
+        <nav>
+          <a href="index.html" class="mx-2 hover:text-pink-300">Start</a>
+          <a href="about.html" class="mx-2 hover:text-pink-300">Über uns</a>
+          <a href="matches.html" class="mx-2 hover:text-pink-300">Matches</a>
+          <a href="contact.html" class="mx-2 hover:text-pink-300">Kontakt</a>
+        </nav>
+      </div>
+    </div>
+    <!-- Hero -->
+    <div class="h-[400px] flex items-center justify-center relative z-10">
+      <h1 class="text-4xl md:text-5xl font-bold text-pink-400">Galerie</h1>
     </div>
   </header>
 
-  <!-- Hero mit Hintergrundbild -->
-<section 
-  class="relative h-[400px] bg-cover bg-center"
-  style="background-image: url('assets/images/hero-bg.png');">
-  <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
-    <h1 class="text-4xl md:text-5xl font-bold text-pink-400">NACHTAURA</h1>
-  </div>
-</section>
-  
   <!-- Galerie -->
-<section class="py-16 px-4 bg-black bg-opacity-60 text-center">
-  <h2 class="text-4xl font-bold text-pink-400 mb-6">Galerie</h2>
-  <p class="text-lg text-gray-300 max-w-xl mx-auto mb-10">
-    Hier findest du unsere neuesten Clips und Highlights.
-  </p>
+  <section class="py-16 px-4 bg-black bg-opacity-60 text-center">
+    <h2 class="text-4xl font-bold text-pink-400 mb-6">Galerie</h2>
+    <p class="text-lg text-gray-300 max-w-xl mx-auto mb-10">
+      Hier findest du unsere neuesten Clips und Highlights.
+    </p>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl mx-auto">
-    <!-- Video 1 -->
-    <div class="aspect-w-16 aspect-h-9">
-      <iframe src="https://www.youtube.com/embed/M6ApzkjRDqg" frameborder="0" allowfullscreen class="w-full h-64"></iframe>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <!-- Video 1 -->
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/M6ApzkjRDqg" frameborder="0" allowfullscreen class="w-full h-64"></iframe>
+      </div>
+      <!-- Video 2 -->
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/397iAvl9tck" frameborder="0" allowfullscreen class="w-full h-64"></iframe>
+      </div>
+      <!-- Video 3 -->
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/pQ_5et6H2zM" frameborder="0" allowfullscreen class="w-full h-64"></iframe>
+      </div>
+      <!-- Video 4 -->
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen class="w-full h-64"></iframe>
+      </div>
     </div>
-    <!-- Video 2 -->
-    <div class="aspect-w-16 aspect-h-9">
-      <iframe src="https://www.youtube.com/embed/397iAvl9tck" frameborder="0" allowfullscreen class="w-full h-64"></iframe>
-    </div>
-    <!-- Video 3 -->
-    <div class="aspect-w-16 aspect-h-9">
-      <iframe src="https://www.youtube.com/embed/pQ_5et6H2zM" frameborder="0" allowfullscreen class="w-full h-64"></iframe>
-    </div>
-    <!-- Video 4 -->
-    <div class="aspect-w-16 aspect-h-9">
-      <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen class="w-full h-64"></iframe>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- Footer -->
-<footer class="bg-gray-950 text-center p-6 mt-10 text-gray-400 text-sm">
-  &copy; 2025 NACHTAURA · 
-  <a href="contact.html" class="hover:text-pink-400 underline">Kontakt</a> · 
-  <a href="impressum.html" class="hover:text-pink-400 underline">Impressum</a>
-</footer>
+  <!-- Footer -->
+  <footer class="bg-gray-950 text-center p-6 mt-10 text-gray-400 text-sm">
+    &copy; 2025 NACHTAURA · 
+    <a href="contact.html" class="hover:text-pink-400 underline">Kontakt</a> · 
+    <a href="impressum.html" class="hover:text-pink-400 underline">Impressum</a>
+  </footer>
 
 </body>
 </html>
