@@ -3,36 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kontakt – NACHTAURA </title>
+  <title>Kontakt – NACHTAURA</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-white font-sans">
 
-  <!-- Header -->
-  <header class="bg-gradient-to-r from-purple-800 via-indigo-700 to-pink-600 p-4 shadow-lg">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Nachtaura</h1>
-      <nav>
-        <a href="index.html" class="mx-2 hover:text-pink-300">Start</a>
-        <a href="about.html" class="mx-2 hover:text-pink-300">Über uns</a>
-        <a href="matches.html" class="mx-2 hover:text-pink-300">Matches</a>
-        <a href="gallery.html" class="mx-2 hover:text-pink-300">Galerie</a>
-      </nav>
+  <!-- Header mit Hero-Hintergrund -->
+  <header class="relative">
+    <div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('assets/images/hero-bg.png'); opacity: 0.25;"></div>
+    <div class="relative z-10 bg-gradient-to-r from-purple-800 via-indigo-700 to-pink-600 p-4 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Nachtaura</h1>
+        <nav>
+          <a href="index.html" class="mx-2 hover:text-pink-300">Start</a>
+          <a href="about.html" class="mx-2 hover:text-pink-300">Über uns</a>
+          <a href="matches.html" class="mx-2 hover:text-pink-300">Matches</a>
+          <a href="gallery.html" class="mx-2 hover:text-pink-300">Galerie</a>
+        </nav>
+      </div>
+    </div>
+    <!-- Hero -->
+    <div class="h-[400px] flex items-center justify-center relative z-10">
+      <h1 class="text-4xl md:text-5xl font-bold text-pink-400">Kontakt & Bewerbung</h1>
     </div>
   </header>
 
-<!-- Hero mit Hintergrundbild -->
-<section 
-  class="relative h-[400px] bg-cover bg-center"
-  style="background-image: url('assets/images/hero-bg.png');">
-  <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
-    <h1 class="text-4xl md:text-5xl font-bold text-pink-400">NACHTAURA</h1>
-  </div>
-</section>
-
   <!-- Kontaktformular -->
   <section class="py-20 px-4 text-center bg-black bg-opacity-60">
-    <h2 class="text-4xl font-bold text-pink-400 mb-6">Kontakt & Bewerbung</h2>
     <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
       Du willst Teil von NACHTAURA werden oder uns als Sponsor unterstützen?  
       Schreib uns eine Nachricht – wir freuen uns!
@@ -53,22 +50,12 @@
     </p>
   </section>
 
-  <!-- Social Links -->
-  <section class="text-center py-10 bg-gray-800">
-    <h3 class="text-xl text-pink-300 mb-4">Folge uns</h3>
-    <div class="flex justify-center space-x-6 text-2xl">
-      <a href="#" class="hover:text-pink-400">🐦</a>
-      <a href="#" class="hover:text-pink-400">📸</a>
-      <a href="#" class="hover:text-pink-400">🎮</a>
-    </div>
-  </section>
-
-<!-- Footer -->
-<footer class="bg-gray-950 text-center p-6 mt-10 text-gray-400 text-sm">
-  &copy; 2025 NACHTAURA · 
-  <a href="contact.html" class="hover:text-pink-400 underline">Kontakt</a> · 
-  <a href="impressum.html" class="hover:text-pink-400 underline">Impressum</a>
-</footer>
+  <!-- Footer -->
+  <footer class="bg-gray-950 text-center p-6 mt-10 text-gray-400 text-sm">
+    &copy; 2025 NACHTAURA · 
+    <a href="contact.html" class="hover:text-pink-400 underline">Kontakt</a> · 
+    <a href="impressum.html" class="hover:text-pink-400 underline">Impressum</a>
+  </footer>
 
 </body>
 </html>
