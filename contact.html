@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt – Nachtaura Esports</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-purple-800 via-indigo-700 to-pink-600 p-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Nachtaura</h1>
+      <nav>
+        <a href="index.html" class="mx-2 hover:text-pink-300">Start</a>
+        <a href="about.html" class="mx-2 hover:text-pink-300">Über uns</a>
+        <a href="matches.html" class="mx-2 hover:text-pink-300">Matches</a>
+        <a href="gallery.html" class="mx-2 hover:text-pink-300">Galerie</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Kontaktformular -->
+  <section class="py-20 px-4 text-center bg-black bg-opacity-60">
+    <h2 class="text-4xl font-bold text-pink-400 mb-6">Kontakt & Bewerbung</h2>
+    <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
+      Du willst Teil von Nachtaura werden oder uns als Sponsor unterstützen?  
+      Schreib uns eine Nachricht – wir freuen uns!
+    </p>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-xl mx-auto space-y-6">
+      <input type="text" name="name" placeholder="Dein Name" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-700">
+      <input type="email" name="_replyto" placeholder="Deine E-Mail-Adresse" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-700">
+      <textarea name="message" rows="5" placeholder="Deine Nachricht" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-700"></textarea>
+      <button type="submit" class="bg-pink-600 hover:bg-pink-700 text-white font-semibold py-2 px-6 rounded">
+        Absenden
+      </button>
+    </form>
+
+    <p class="text-sm text-gray-400 mt-4">
+      Oder sende uns direkt eine Mail an:  
+      <a href="mailto:nachtaura.team@gmail.com" class="text-pink-400 hover:underline">nachtaura.team@gmail.com</a>
+    </p>
+  </section>
+
+  <!-- Social Links -->
+  <section class="text-center py-10 bg-gray-800">
+    <h3 class="text-xl text-pink-300 mb-4">Folge uns</h3>
+    <div class="flex justify-center space-x-6 text-2xl">
+      <a href="#" class="hover:text-pink-400">🐦</a>
+      <a href="#" class="hover:text-pink-400">📸</a>
+      <a href="#" class="hover:text-pink-400">🎮</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 text-center p-6 mt-10 text-gray-400 text-sm">
+    &copy; 2025 Nachtaura Esports · Kontakt · Impressum
+  </footer>
+
+</body>
+</html>
